@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  namespace: game
+  namespace: argocd
   name: argocd
 spec:
   project: default
