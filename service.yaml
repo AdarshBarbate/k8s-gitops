@@ -3,7 +3,8 @@ kind: Service
 metadata:
   namespace: game
   name: service-2048
-spec:
+spec: 
+  type: LoadBalancer
   ports:
     - port: 80
       targetPort: 80
