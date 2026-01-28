@@ -1,0 +1,5 @@
+groups:
+  - name: Alerts
+    rules: 
+    - alert: Is Node Exported up
+      expr: up{job="kubernetes-nodes"} == 0
